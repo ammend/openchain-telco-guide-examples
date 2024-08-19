@@ -1,0 +1,965 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "golang_example",
+    "documentNamespace": "https://anchore.com/syft/file/golang_example-55940196-4643-4224-9997-4165831b6c74",
+    "creationInfo": {
+        "licenseListVersion": "3.24",
+        "creators": [
+            "Organization: Anchore, Inc",
+            "Tool: syft-[not provided]"
+        ],
+        "created": "2024-08-19T11:27:01Z",
+        "comment": "Analyzed"
+    },
+    "packages": [
+        {
+            "name": "github.com/ammend/openchain-telco-guide-examples/golang",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "versionInfo": "v0.0.0-20240812110013-31a518e23c8e",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ammend:openchain-telco-guide-examples\\/golang:v0.0.0-20240812110013-31a518e23c8e:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ammend:openchain_telco_guide_examples\\/golang:v0.0.0-20240812110013-31a518e23c8e:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/ammend/openchain-telco-guide-examples@v0.0.0-20240812110013-31a518e23c8e#golang"
+                }
+            ]
+        },
+        {
+            "name": "github.com/gabriel-vasile/mimetype",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-gabriel-vasile-mimetype-7f7924fe23e5bdc7",
+            "versionInfo": "v1.4.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8a7dae51c89d0ae15c0cab5d701c65474ac9d7e7eca2459ffaeab18141636c8d"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gabriel-vasile:mimetype:v1.4.3:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gabriel_vasile:mimetype:v1.4.3:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gabriel:mimetype:v1.4.3:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.3"
+                }
+            ]
+        },
+        {
+            "name": "github.com/gin-contrib/sse",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-gin-contrib-sse-446946b5720fa100",
+            "versionInfo": "v0.1.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "63fca5ffe60d3bc1994a30218ccb12b8bb76f6e5911477476146f9958395f6a1"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gin-contrib:sse:v0.1.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gin_contrib:sse:v0.1.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gin:sse:v0.1.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/gin-contrib/sse@v0.1.0"
+                }
+            ]
+        },
+        {
+            "name": "github.com/gin-gonic/gin",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-gin-gonic-gin-8042d142f794190a",
+            "versionInfo": "v1.10.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9d3bb285ad5362a81e773cadb0a62a9daf837cba2ce3a9d3bf6ca0172f3a1c55"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gin-gonic:gin:v1.10.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gin_gonic:gin:v1.10.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gin:gin:v1.10.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/gin-gonic/gin@v1.10.0"
+                }
+            ]
+        },
+        {
+            "name": "github.com/go-playground/locales",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-go-playground-locales-2af80ac5060fa21c",
+            "versionInfo": "v0.14.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "116690ff0b308e295f28b4c40a25f3ed187edc18c585f0c52affe85ec9448c90"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go-playground:locales:v0.14.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go_playground:locales:v0.14.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go:locales:v0.14.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/go-playground/locales@v0.14.1"
+                }
+            ]
+        },
+        {
+            "name": "github.com/go-playground/universal-translator",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-go-playground-universal-translator-66a86a317951cf0d",
+            "versionInfo": "v0.18.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "05c9e6d19c2c1b259b0b32265effa90099d82bd4b8ef72d016ecc26c36df4856"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go-playground:universal-translator:v0.18.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go-playground:universal_translator:v0.18.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go_playground:universal-translator:v0.18.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go_playground:universal_translator:v0.18.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go:universal-translator:v0.18.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go:universal_translator:v0.18.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/go-playground/universal-translator@v0.18.1"
+                }
+            ]
+        },
+        {
+            "name": "github.com/go-playground/validator/v10",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-go-playground-validator-v10-e6cf08e88cc9c946",
+            "versionInfo": "v10.20.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "2bd2121db49a23497207679630f268fa4392fc5044c55c2312f8894e2c6ac4bf"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go-playground:validator\\/v10:v10.20.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go_playground:validator\\/v10:v10.20.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:go:validator\\/v10:v10.20.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/go-playground/validator@v10.20.0#v10"
+                }
+            ]
+        },
+        {
+            "name": "github.com/leodido/go-urn",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-leodido-go-urn-000f94918bbc5ec9",
+            "versionInfo": "v1.4.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "593f47c04f521840aede583877f74803e8f19658c46b5fdf7d72a6463a9d9884"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:leodido:go-urn:v1.4.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:leodido:go_urn:v1.4.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/leodido/go-urn@v1.4.0"
+                }
+            ]
+        },
+        {
+            "name": "github.com/mattn/go-isatty",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-mattn-go-isatty-ab65ef248782fcec",
+            "versionInfo": "v0.0.20",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c5f0f4883b842a70e4974deae258a607ebc7f86c4b12d2ff8dbe315494965846"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:mattn:go-isatty:v0.0.20:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:mattn:go_isatty:v0.0.20:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/mattn/go-isatty@v0.0.20"
+                }
+            ]
+        },
+        {
+            "name": "github.com/pelletier/go-toml/v2",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-pelletier-go-toml-v2-b50188a7168b65c9",
+            "versionInfo": "v2.2.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "698522753ee4ef73dc97d9dbda049cbbb352aca0921c80c4f3d6f7fba5aaf8b3"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:pelletier:go-toml\\/v2:v2.2.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:pelletier:go_toml\\/v2:v2.2.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/pelletier/go-toml@v2.2.2#v2"
+                }
+            ]
+        },
+        {
+            "name": "github.com/ugorji/go/codec",
+            "SPDXID": "SPDXRef-Package-go-module-github.com-ugorji-go-codec-b7125bfe5aee2f9e",
+            "versionInfo": "v1.2.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f4b0bcdf31ab1e1b9403d975e82f401d702a115ff6c014389e4bee98013ae441"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ugorji:go\\/codec:v1.2.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/ugorji/go@v1.2.12#codec"
+                }
+            ]
+        },
+        {
+            "name": "golang.org/x/crypto",
+            "SPDXID": "SPDXRef-Package-go-module-golang.org-x-crypto-a21443cf5005056c",
+            "versionInfo": "v0.23.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "748254fefd89f0c760963ffcac9e9450e33765cf732d9c55670c31328a144802"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:golang:x\\/crypto:v0.23.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.23.0"
+                }
+            ]
+        },
+        {
+            "name": "golang.org/x/net",
+            "SPDXID": "SPDXRef-Package-go-module-golang.org-x-net-1db60c2fa9495228",
+            "versionInfo": "v0.25.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "77f3820a804452adf7a63c9d2ab190870ec89543c8d8eca5afef2a2f1e3d91a7"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:golang:networking:v0.25.0:*:*:*:*:go:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/golang.org/x/net@v0.25.0"
+                }
+            ]
+        },
+        {
+            "name": "golang.org/x/sys",
+            "SPDXID": "SPDXRef-Package-go-module-golang.org-x-sys-2c8da4f81a780689",
+            "versionInfo": "v0.20.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "39df494db602936eb56ca9b833f9b0ec09254e515821ad1b229f418129b54bc6"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.20.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/golang.org/x/sys@v0.20.0"
+                }
+            ]
+        },
+        {
+            "name": "golang.org/x/text",
+            "SPDXID": "SPDXRef-Package-go-module-golang.org-x-text-f987fcd292a151ab",
+            "versionInfo": "v0.15.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "87557fe208c1bfcbfd723711ebe011e7efdc2182b937f580822bf8c65b04b409"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:golang:text:v0.15.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/golang.org/x/text@v0.15.0"
+                }
+            ]
+        },
+        {
+            "name": "google.golang.org/protobuf",
+            "SPDXID": "SPDXRef-Package-go-module-google.golang.org-protobuf-64ac93cb61c217ee",
+            "versionInfo": "v1.34.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f5d7500637c2c993ce1cf5223f1a5811204b73e4fc3f713e568e086ca6601568"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google:protobuf:v1.34.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.34.1"
+                }
+            ]
+        },
+        {
+            "name": "gopkg.in/yaml.v3",
+            "SPDXID": "SPDXRef-Package-go-module-gopkg.in-yaml.v3-80a39542a923ff97",
+            "versionInfo": "v3.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7f1566fc6cc0cc45aa2c7baf72d23dd4a4bd8613669963a85aed174d8252ec20"
+                }
+            ],
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+                }
+            ]
+        },
+        {
+            "name": "stdlib",
+            "SPDXID": "SPDXRef-Package-go-module-stdlib-addea19cfc16213f",
+            "versionInfo": "go1.22.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from go module information: /golang_example",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/stdlib@1.22.0"
+                }
+            ]
+        },
+        {
+            "name": "golang_example",
+            "SPDXID": "SPDXRef-DocumentRoot-File-golang-example",
+            "versionInfo": "sha256:340ac3f333c8267bfcef11acabf26d5cbe86b1abf6a5d7cd7f6f1bd3693f3998",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "340ac3f333c8267bfcef11acabf26d5cbe86b1abf6a5d7cd7f6f1bd3693f3998"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "primaryPackagePurpose": "FILE"
+        }
+    ],
+    "files": [
+        {
+            "fileName": "/golang_example",
+            "SPDXID": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "0000000000000000000000000000000000000000"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": ""
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-leodido-go-urn-000f94918bbc5ec9",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-net-1db60c2fa9495228",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-go-playground-locales-2af80ac5060fa21c",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-sys-2c8da4f81a780689",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-gin-contrib-sse-446946b5720fa100",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-google.golang.org-protobuf-64ac93cb61c217ee",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-go-playground-universal-translator-66a86a317951cf0d",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-gabriel-vasile-mimetype-7f7924fe23e5bdc7",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-gin-gonic-gin-8042d142f794190a",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-gopkg.in-yaml.v3-80a39542a923ff97",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-crypto-a21443cf5005056c",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-mattn-go-isatty-ab65ef248782fcec",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-stdlib-addea19cfc16213f",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-pelletier-go-toml-v2-b50188a7168b65c9",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-ugorji-go-codec-b7125bfe5aee2f9e",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-go-playground-validator-v10-e6cf08e88cc9c946",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-text-f987fcd292a151ab",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-leodido-go-urn-000f94918bbc5ec9",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-net-1db60c2fa9495228",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-go-playground-locales-2af80ac5060fa21c",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-sys-2c8da4f81a780689",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-gin-contrib-sse-446946b5720fa100",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-google.golang.org-protobuf-64ac93cb61c217ee",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-go-playground-universal-translator-66a86a317951cf0d",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-gabriel-vasile-mimetype-7f7924fe23e5bdc7",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-gin-gonic-gin-8042d142f794190a",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-gopkg.in-yaml.v3-80a39542a923ff97",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-crypto-a21443cf5005056c",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-mattn-go-isatty-ab65ef248782fcec",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-stdlib-addea19cfc16213f",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-pelletier-go-toml-v2-b50188a7168b65c9",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-ugorji-go-codec-b7125bfe5aee2f9e",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-github.com-go-playground-validator-v10-e6cf08e88cc9c946",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-text-f987fcd292a151ab",
+            "relatedSpdxElement": "SPDXRef-File-golang-example-4ef0d2e7e3a44776",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ammend-openchain-telco-guide-examples-golang-1ffdd5a24edb2bb6",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-gabriel-vasile-mimetype-7f7924fe23e5bdc7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-gin-contrib-sse-446946b5720fa100",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-gin-gonic-gin-8042d142f794190a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-go-playground-locales-2af80ac5060fa21c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-go-playground-universal-translator-66a86a317951cf0d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-go-playground-validator-v10-e6cf08e88cc9c946",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-leodido-go-urn-000f94918bbc5ec9",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-mattn-go-isatty-ab65ef248782fcec",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-pelletier-go-toml-v2-b50188a7168b65c9",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-github.com-ugorji-go-codec-b7125bfe5aee2f9e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-golang.org-x-crypto-a21443cf5005056c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-golang.org-x-net-1db60c2fa9495228",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-golang.org-x-sys-2c8da4f81a780689",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-golang.org-x-text-f987fcd292a151ab",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-google.golang.org-protobuf-64ac93cb61c217ee",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-gopkg.in-yaml.v3-80a39542a923ff97",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-golang-example",
+            "relatedSpdxElement": "SPDXRef-Package-go-module-stdlib-addea19cfc16213f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-DocumentRoot-File-golang-example",
+            "relationshipType": "DESCRIBES"
+        }
+    ]
+}
